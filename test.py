@@ -22,6 +22,11 @@ parser.add_argument('--visualize', action='store_true')
 parser.add_argument('--save_dir', 
                     type=str,
                     help="Path of the directory to save the visualized results")
+parser.add_argument('--generate', action='store_true')
+parser.add_argument('--out_dir', 
+                    type=str,
+                    help="Path of the directory to save the generated detections")
+
 
 args = parser.parse_args()
 
@@ -69,3 +74,8 @@ if args.evaluate:
 if args.visualize:
     tprint("Mode: Visualization")
     engine.visualize(args.save_dir, draw_items=['2d', '3d', 'bev'])
+
+# Generate
+if args.generate:
+    tprint("Mode: Generation")
+    engine.generate(args.out_dir)
