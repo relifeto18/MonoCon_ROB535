@@ -5,17 +5,6 @@ The 3D Bounding Box result.
 
 ![3D Bounding Box](https://github.com/relifeto18/MonoCon_ROB535/blob/main/exps/3D%20Bounding%20Box.gif)
 
-
-<!-- After setting up the envionment and converting the final project dataset into the KITTI format, the training code should work directly.
-
-### Submission Format Generation
-The repo does not have an inference script to generate detection files in the test set, where ground truth labels are not available. You need to implement this by yourself to generate the submission file. 
-
-We provide utility functions `kitti_3d_to_file()` and `kitti_file_to_3d()` in `utils/kitti_convert_utils.py`, to generate detection files in kitti format. We also provide `merger.py` to merge detections files for all frames into a single file. Use them to write your own inference script to generate the submission file on the test set.
-
-Hint: you may look into `test.py` and `MonoconEngine.evaluate()` and modify from there to output detection files. --!>
-
-
 Below are the original readme of [MonoCon](https://github.com/2gunsu/monocon-pytorch).
 
 # MonoCon (AAAI, 2022)
