@@ -10,6 +10,10 @@ We provide utility functions `kitti_3d_to_file()` and `kitti_file_to_3d()` in `u
 
 Hint: you may look into `test.py` and `MonoconEngine.evaluate()` and modify from there to output detection files. 
 
+The 3D Bounding Box result.
+
+![](https://github.com/relifeto18/MonoCon_ROB535/blob/main/exps/3D%20Bounding%20Box.gif)
+
 Below are the original readme of [MonoCon](https://github.com/2gunsu/monocon-pytorch).
 
 # MonoCon (AAAI, 2022)
