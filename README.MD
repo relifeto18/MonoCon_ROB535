@@ -1,4 +1,4 @@
-# A template repository for NA565 final project
+# A repository for NA565 final project
 This repo is accommodated from [MonoCon](https://github.com/2gunsu/monocon-pytorch) for the NA565 final project. 
 
 The 3D Bounding Box result.
